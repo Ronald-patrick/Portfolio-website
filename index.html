@@ -298,7 +298,7 @@
   
                 <!-- Modal body -->
                 <div class="w-75 mx-auto modal-body">
-                  <form action="/action_page.php">
+                  <form name="Contact form" method="POST" data-netlify="true">
                     <div class="form-group">
                       <label for="email">Your Name</label>
                       <input
@@ -307,6 +307,8 @@
                         placeholder="Enter Name"
                         id="email"
                         autocomplete="off"
+                        name="name"
+                        required
                       />
                     </div>
                     <div class="form-group">
@@ -316,12 +318,15 @@
                         class="form-control"
                         placeholder="Enter Email"
                         id="pwd"
+                        name="email"
+                        required
                       />
                     </div>
   
                     <div class="form-group">
                       <label>Message</label>
-                      <textarea class="pb-5 form-control"></textarea>
+                      <textarea name="message"
+                       class="pb-5 form-control" required></textarea>
                     </div>
                     <button type="submit" class="btn btn-outline-success">
                       Submit
