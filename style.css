@@ -449,11 +449,25 @@ font-family: 'Merienda', cursive;
       border-radius: 20px;
   }
 
+  .proj span
+  {
+      font-size: 200px;
+      color:#7510f7;
+  }
 
-
-
-
-
+  .btn-outline-warning
+  {
+      color:#7510f7 !important;
+      border: 3px solid #7510f7;
+      font-weight: bold;
+  }
+  .btn-outline-warning:hover
+  {
+      transition: all 0.5s;
+      background-color: #7510f7;
+      border: 3px solid #7510f7;
+      color: white !important;
+  }
 
 
 
