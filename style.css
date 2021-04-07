@@ -367,7 +367,7 @@ font-family: 'Merienda', cursive;
   .list
   {
       font-size: 30px;
-      width: 240px;
+      width: 260px;
       display: flex;
       justify-content: space-between;
   }
