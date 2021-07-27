@@ -92,7 +92,7 @@
     flex-direction: column;
 }
 .greet{
-    font-size: 4vh;
+    font-size: 5vh;
     color: #6f00fffd;
 /* font-family: 'Roboto Mono', monospace; */
     margin-right: 0.5em;
@@ -492,8 +492,19 @@ font-family: 'Merienda', cursive;
         margin-right: 0px;
         
 }
+.name a{
+	font-size: 1.3rem;
+}
+.toggle-button{
+	justify-content: space-around;
+	width: 30px;
+}
+.toggle-button .bar{
+	height: 3px;
+}
 .iname{
     width: 40vh;
+	font-size: 3rem;
 }
 .navlinks
 {
@@ -550,5 +561,27 @@ align-items: center;
 .card{
     margin-left: auto;
     margin-right: auto;
+}
+.adetails h3{
+	font-size: 1.7rem;
+}
+.desc{
+	font-size: 1.4rem;
+}
+.quote{
+	font-size: 1.2rem;
+}
+.details{
+	font-size: 1.3rem;
+}
+.projects h3{
+	font-size: 1.5rem;
+}
+.proj span{
+	font-size: 6rem;
+}
+
+#section5 h1{
+	font-size: 2.5rem;
 }
 }
